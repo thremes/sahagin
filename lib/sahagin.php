@@ -33,7 +33,7 @@ final class Sahagin_Main
         //* Add custom header
         add_theme_support( 'custom-header', array(
             'default-image'      => "{$child_dir_uri}lib/assets/images/headers/header-01.jpg",
-            'default-text-color' => '212121',
+            'default-text-color' => '252525',
         ) );
 
         //* Add a custom default icon for the "header_icon" option
