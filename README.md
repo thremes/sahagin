@@ -1,6 +1,6 @@
 # Sahagin
 
-Just one more child-theme for Saga.
+One more child-theme for Saga that women who write will love.
 
 ## Parent Theme
 
