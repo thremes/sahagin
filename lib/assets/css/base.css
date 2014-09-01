@@ -22,37 +22,39 @@
 
 /* ====== Primary Font ====== */
 
-/*body,*/
-/*#site-title,*/
-/*.main .entry-subtitle,*/
-/*button,*/
-/*.font-primary {*/
-/*font-family: 'Lato', sans-serif;*/
-/*}*/
+body,
+#site-title,
+.main .entry-subtitle,
+button,
+.font-primary {
+    font-family: 'Georgia', sans-serif;
+}
 
 /* ====== Secondary Font ====== */
 
-/*blockquote,*/
-/*dt,*/
-/*.entry-byline .entry-author a,*/
-/*var,*/
-/*.font-secondary {*/
-/*font-family: 'Playfair Display', Georgia, serif;*/
-/*}*/
+blockquote,
+dt,
+.entry-byline .entry-author a,
+var,
+.font-secondary {
+    font-family: 'Georgia', sans-serif;
+}
 
 /* ====== Headlines Font ====== */
 
-/*h1, h2, h3, h4, h5, h6,*/
-/*.font-headlines {*/
-/*font-family: 'Playfair Display', Georgia, serif;*/
-/*}*/
+h1, h2, h3, h4, h5, h6,
+.font-headlines {
+    font-family: 'Courier New', sans-serif;
+    font-weight: normal;
+    text-transform: uppercase;
+}
 
 /* ====== Code Font ====== */
 
-/*body pre,*/
-/*body code {*/
-/*font-family: Monaco, Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", "Courier New", Courier, monospace;*/
-/*}*/
+body pre,
+body code {
+    font-family: Monaco, Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", "Courier New", Courier, monospace;
+}
 
 /**
  * 2.2 - Color Definitions
@@ -86,7 +88,6 @@
 /* === background rgb( 255, 255, 255 ) === */
 
 @media only screen and ( min-width: 850px ) {
-
     /*.plural .entry > .wrap { background: rgba( 255, 255, 255, 0.9 ); }*/
 }
 
@@ -132,42 +133,42 @@
 /*color: #757575;*/
 /*}*/
 
-/* === color #555 === */
+/* === color #545454 === */
 
-/*.line-through del,*/
-/*.line-through strike,*/
-/*.line-through s,*/
-/*.entry-content,*/
-/*.entry-summary,*/
-/*.media-meta .prep,*/
-/*.comment-content {*/
-/*color: #555;*/
-/*}*/
+.line-through del,
+.line-through strike,
+.line-through s,
+.entry-content,
+.entry-summary,
+.media-meta .prep,
+.comment-content {
+    color: #545454;
+}
 
-/* === color #454545 === */
+/* === color #414141 === */
 
-/*h1,*/
-/*h2,*/
-/*h3,*/
-/*h4,*/
-/*h5,*/
-/*h6,*/
-/*.entry-byline .entry-author a {*/
-/*color: #454545;*/
-/*}*/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.entry-byline .entry-author a {
+    color: #414141;
+}
 
-/* === color #353535 === */
+/* === color #313131 === */
 
-/*.entry-subtitle {*/
-/*color: #353535;*/
-/*}*/
+.entry-subtitle {
+    color: #313131;
+}
 
-/* === color #252525 === */
+/* === color #212121 === */
 
-/*.main .entry-title,*/
-/*.entry-title a {*/
-/*color: #252525;*/
-/*}*/
+.main .entry-title,
+.entry-title a {
+    color: #212121;
+}
 
 /* === border color rgb( 119, 119, 119 ) === */
 
@@ -197,14 +198,14 @@
 
 /* === background transparent === */
 
-/*pre code {*/
-/*background: transparent;*/
-/*}*/
+pre code {
+    background: transparent;
+}
 
-/*a img {*/
-/*background: #fafafa;*/
-/*border-color: #e5f5f5;*/
-/*}*/
+a img {
+    background: transparent;
+    border-color: #f1f1f1;
+}
 
 /* === gallery count / caption text colors === */
 
@@ -298,15 +299,17 @@
 
 /* === media player colors === */
 
-/*.wp-audio-shortcode.mejs-container,*/
-/*.mejs-controls,*/
-/*.mejs-volume-button .mejs-volume-slider,*/
-/*.mejs-time-rail .mejs-time-float,*/
-/*.wp-playlist-dark {*/
-/*background: #252525;*/
-/*}*/
+.wp-audio-shortcode.mejs-container,
+.mejs-controls,
+.mejs-volume-button .mejs-volume-slider,
+.mejs-time-rail .mejs-time-float,
+.wp-playlist-dark {
+    background: #212121;
+}
 
-/*.wp-playlist-dark .mejs-controls { background: #151515; }*/
+.wp-playlist-dark .mejs-controls {
+    background: #111;
+}
 
 /*.wp-playlist-dark .wp-playlist-tracks a { color: rgba( 255, 255, 255, 0.75 ); }*/
 
@@ -319,20 +322,27 @@
 /*background: transparent;*/
 /*}*/
 
-/*.mejs-time-rail .mejs-time-float        { border-color: #454545; }*/
+.mejs-time-rail .mejs-time-float {
+    border-color: #414141;
+}
+
 /*.mejs-time-rail .mejs-time-float-corner { border-top-color: #fff; }*/
 
-/*.mejs-time-rail .mejs-time-total,*/
-/*.mejs-horizontal-volume-slider .mejs-horizontal-volume-total,*/
-/*.mejs-volume-button .mejs-volume-slider .mejs-volume-total {*/
-/*background: #454545;*/
-/*}*/
+.mejs-time-rail .mejs-time-total,
+.mejs-horizontal-volume-slider .mejs-horizontal-volume-total,
+.mejs-volume-button .mejs-volume-slider .mejs-volume-total {
+    background: #414141;
+}
 
 /*.mejs-time-rail .mejs-time-current { background: rgba( 255, 255, 255, 0.35 ); }*/
 
-/*.mejs-overlay-play .mejs-overlay-button::after { text-shadow: 1px 1px 2px #151515; }*/
+.mejs-overlay-play .mejs-overlay-button::after {
+    text-shadow: 1px 1px 2px #111;
+}
 
-/*.mejs-button button:focus { outline-color: #555; }*/
+.mejs-button button:focus {
+    outline-color: #545454;
+}
 
 /* === Chat speaker colors === */
 
