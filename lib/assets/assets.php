@@ -1,12 +1,12 @@
 <?php
 
 /**
- * Class Jella49_Assets
+ * Class Sahagin_Assets
  */
-final class Jella49_Assets
+final class Sahagin_Assets
 {
     /**
-     * @var Jella49_Google_Fonts
+     * @var Sahagin_Google_Fonts
      */
     private $google_fonts;
 
@@ -16,7 +16,7 @@ final class Jella49_Assets
     private function __construct()
     {
         //* Init the google fonts helper
-        $this->google_fonts = new Jella49_Google_Fonts();
+        $this->google_fonts = new Sahagin_Google_Fonts();
         $this->add_google_fonts( $this->google_fonts );
 
         //* Enqueue and dequeue fonts/styles
@@ -44,7 +44,7 @@ final class Jella49_Assets
     {
         static $instance;
         if ( !isset( $instance ) ) {
-            $instance = new Jella49_Assets();
+            $instance = new Sahagin_Assets();
         }
 
         return $instance;
@@ -56,7 +56,7 @@ final class Jella49_Assets
     function fonts()
     {
         wp_dequeue_style( 'saga-fonts' );
-        wp_enqueue_style( 'jella49-fonts', $this->google_fonts->get_url() );
+        wp_enqueue_style( 'sahagin-fonts', $this->google_fonts->get_url() );
     }
 
     /**
@@ -64,7 +64,7 @@ final class Jella49_Assets
      */
     function styles()
     {
-        $this->enqueue_style( 'jella49-base', 'base.css', array( 'parent' ) );
+        $this->enqueue_style( 'sahagin-base', 'base.css', array( 'parent' ) );
     }
 
     /**
@@ -85,12 +85,12 @@ final class Jella49_Assets
             'sample-01' => array(
                 'url'           => '%2$s/lib/assets/images/headers/sample.png',
                 'thumbnail_url' => '%2$s/lib/assets/images/headers/sample-thumb.png',
-                'description'   => __( 'Sample One', 'jella49' )
+                'description'   => __( 'Sample One', 'sahagin' )
             ),
             'sample-02' => array(
                 'url'           => '%2$s/lib/assets/images/headers/sample.png',
                 'thumbnail_url' => '%2$s/lib/assets/images/headers/sample-thumb.png',
-                'description'   => __( 'Sample Two', 'jella49' )
+                'description'   => __( 'Sample Two', 'sahagin' )
             )
         ) );
     }
@@ -117,7 +117,7 @@ final class Jella49_Assets
     /**
      * Add fonts to Google Fonts Helper
      *
-     * @param $google_fonts Jella49_Google_Fonts
+     * @param $google_fonts Sahagin_Google_Fonts
      */
     private function add_google_fonts( $google_fonts )
     {
@@ -127,7 +127,7 @@ final class Jella49_Assets
              * supported by Lato, translate this to 'off'. Do not translate
              * into your own language.
              */
-            _x( 'on', 'Lato font: on or off', 'jella49' )
+            _x( 'on', 'Lato font: on or off', 'sahagin' )
         );
         $google_fonts->add(
             'Playfair Display:400,700,900,400italic,700italic,900italic',
@@ -135,7 +135,7 @@ final class Jella49_Assets
              * supported by Playfair Display, translate this to 'off'. Do not translate
              * into your own language.
              */
-            _x( 'on', 'Playfair Display font: on or off', 'jella49' )
+            _x( 'on', 'Playfair Display font: on or off', 'sahagin' )
         );
     }
 

@@ -6,26 +6,26 @@
  * the amount of aura displayed. The battle can turn at any point. That's what fighting
  * with Nen means." ~ Morel McCarnathy | Hunter x Hunter
  *
- * @package    Jella49
+ * @package    Sahagin
  * @author     Thiago Senna <thiago@thremes.com.br>
  * @copyright  Copyright (c) 2014, Thiago Senna
  * @license    http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
  */
 
 //* Load main/theme functionality
-require_once( 'lib/jella49.php' );
+require_once( 'lib/sahagin.php' );
 
 /*
  * Your custom functionality starts right here. So play with it
  * as usual. Once some features are done, tested and stable enough,
  * move them to a more apropriate functionality from file loaded right before.
  */
-add_action( 'after_setup_theme', 'jella49_setup' );
+add_action( 'after_setup_theme', 'sahagin_setup' );
 
 /**
  * The Custom Theme Setup
  */
-function jella49_setup()
+function sahagin_setup()
 {
     // TODO - Here goes your custom functionality...
 }

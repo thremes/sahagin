@@ -1,12 +1,12 @@
 <?php
 
 /**
- * Class Jella49_Shortcodes
+ * Class Sahagin_Shortcodes
  */
-final class Jella49_Shortcodes
+final class Sahagin_Shortcodes
 {
     /**
-     * @var Jella49_Clip
+     * @var Sahagin_Clip
      */
     private $clip;
 

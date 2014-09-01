@@ -1,9 +1,9 @@
 <?php
 
 /**
- * Class Jella49_Cleanup
+ * Class Sahagin_Cleanup
  */
-final class Jella49_Cleanup
+final class Sahagin_Cleanup
 {
     /**
      * The Constructor
@@ -20,7 +20,7 @@ final class Jella49_Cleanup
     {
         static $instance;
         if ( !isset( $instance ) ) {
-            $instance = new Jella49_Cleanup();
+            $instance = new Sahagin_Cleanup();
         }
 
         return $instance;

@@ -1,9 +1,9 @@
 <?php
 
 /**
- * Class Jella49_Clip
+ * Class Sahagin_Clip
  */
-abstract class Jella49_Clip
+abstract class Sahagin_Clip
 {
     /**
      * Render/Clip the shortcode template
@@ -56,9 +56,9 @@ abstract class Jella49_Clip
 }
 
 /**
- * Class Jella49_Clip_Shortcode
+ * Class Sahagin_Clip_Shortcode
  */
-final class Jella49_Clip_Shortcodes extends Jella49_Clip
+final class Sahagin_Clip_Shortcodes extends Sahagin_Clip
 {
     /**
      * Locate the template

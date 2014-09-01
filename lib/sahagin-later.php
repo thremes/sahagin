@@ -1,9 +1,9 @@
 <?php
 
 /**
- * Class Jella49_Later
+ * Class Sahagin_Later
  */
-final class Jella49_Later
+final class Sahagin_Later
 {
     /**
      * The Constructor
@@ -20,7 +20,7 @@ final class Jella49_Later
     {
         static $instance;
         if ( !isset( $instance ) ) {
-            $instance = new Jella49_Later();
+            $instance = new Sahagin_Later();
         }
 
         return $instance;

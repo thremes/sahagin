@@ -4,7 +4,7 @@
  * Google Fonts Helper
  *
  */
-final class Jella49_Google_Fonts
+final class Sahagin_Google_Fonts
 {
     /**
      * Available/Active font-families property
