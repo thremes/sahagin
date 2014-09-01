@@ -35,20 +35,21 @@ final class Sahagin_Main
     {
         //* Useful variables
         // @TODO $child_dir = trailingslashit( get_stylesheet_directory() );
-        // @TODO $child_dir_uri = trailingslashit( get_stylesheet_directory_uri() );
+        $child_dir_uri = trailingslashit( get_stylesheet_directory_uri() );
 
         //* Load text domain
         // @TODO load_child_theme_textdomain( 'sahagin', "{$child_dir}languages" );
 
         //* Add custom background
         add_theme_support( 'custom-background', array(
-            'default-color' => '151515',
+            'default-color' => 'fff',
+            'default-image' => "{$child_dir_uri}lib/assets/images/backgrounds/linedpaper.png",
         ) );
 
         //* Add custom header
         add_theme_support( 'custom-header', array(
-            'default-image'      => '',
-            'default-text-color' => 'dadada',
+            'default-image'      => "{$child_dir_uri}lib/assets/images/headers/header-01.jpg",
+            'default-text-color' => '212121',
         ) );
 
         //* Add a custom default icon for the "header_icon" option
@@ -83,7 +84,7 @@ final class Sahagin_Main
      */
     function header_icon( $icon )
     {
-        return 'default' === $icon ? 'icon-pencil' : $icon;
+        return 'default' === $icon ? 'icon-heart-o' : $icon;
     }
 
     /**
@@ -95,7 +96,7 @@ final class Sahagin_Main
      */
     function color_menu( $hex )
     {
-        return $hex ? $hex : '929292';
+        return $hex ? $hex : '8E6A75';
     }
 
     /**
@@ -107,7 +108,7 @@ final class Sahagin_Main
      */
     function color_primary( $hex )
     {
-        return $hex ? $hex : '929292';
+        return $hex ? $hex : '8E6A75';
     }
 
 }

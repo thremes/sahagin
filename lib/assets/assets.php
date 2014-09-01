@@ -82,15 +82,15 @@ final class Sahagin_Assets
     function default_headers()
     {
         register_default_headers( array(
-            'sample-01' => array(
-                'url'           => '%2$s/lib/assets/images/headers/sample.png',
-                'thumbnail_url' => '%2$s/lib/assets/images/headers/sample-thumb.png',
-                'description'   => __( 'Sample One', 'sahagin' )
+            'header-01' => array(
+                'url'           => '%2$s/lib/assets/images/headers/header-01.jpg',
+                'thumbnail_url' => '%2$s/lib/assets/images/headers/header-01-thumb.jpg',
+                'description'   => __( 'Header One', 'sahagin' )
             ),
-            'sample-02' => array(
-                'url'           => '%2$s/lib/assets/images/headers/sample.png',
-                'thumbnail_url' => '%2$s/lib/assets/images/headers/sample-thumb.png',
-                'description'   => __( 'Sample Two', 'sahagin' )
+            'header-02' => array(
+                'url'           => '%2$s/lib/assets/images/headers/header-02.jpg',
+                'thumbnail_url' => '%2$s/lib/assets/images/headers/header-02-thumb.jpg',
+                'description'   => __( 'Header Two', 'sahagin' )
             )
         ) );
     }
@@ -101,12 +101,12 @@ final class Sahagin_Assets
     function default_backgrounds( $backgrounds )
     {
         $_backgrounds = array(
-            'sample-01' => array(
-                'url'           => '%2$s/lib/assets/images/backgrounds/sample.png',
+            'crossword' => array(
+                'url'           => '%2$s/lib/assets/images/backgrounds/crossword.png',
                 'thumbnail_url' => '%2$s/lib/assets/images/backgrounds/sample-thumb.png',
             ),
-            'sample-02' => array(
-                'url'           => '%2$s/lib/assets/images/backgrounds/sample.png',
+            'greyzz' => array(
+                'url'           => '%2$s/lib/assets/images/backgrounds/greyzz.png',
                 'thumbnail_url' => '%2$s/lib/assets/images/backgrounds/sample-thumb.png',
             )
         );
