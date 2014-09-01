@@ -78,11 +78,11 @@ final class Sahagin_Assets
         $_backgrounds = array(
             'crossword' => array(
                 'url'           => '%2$s/lib/assets/images/backgrounds/crossword.png',
-                'thumbnail_url' => '%2$s/lib/assets/images/backgrounds/sample-thumb.png',
+                'thumbnail_url' => '%2$s/lib/assets/images/backgrounds/crossword-thumb.png',
             ),
             'greyzz'    => array(
                 'url'           => '%2$s/lib/assets/images/backgrounds/greyzz.png',
-                'thumbnail_url' => '%2$s/lib/assets/images/backgrounds/sample-thumb.png',
+                'thumbnail_url' => '%2$s/lib/assets/images/backgrounds/greyzz-thumb.png',
             )
         );
 
