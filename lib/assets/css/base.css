@@ -91,47 +91,51 @@ body code {
     /*.plural .entry > .wrap { background: rgba( 255, 255, 255, 0.9 ); }*/
 }
 
-/* === color #d5d5d5 === */
+/* === color #d1d1d1 === */
 
-/*.mejs-unmute,*/
-/*.mejs-unmute button { color: #d5d5d5; }*/
+.mejs-unmute,
+.mejs-unmute button {
+    color: #d1d1d1;
+}
 
-/* === color #b5b5b5 === */
+/* === color #b1b1b1 === */
 
-/*.entry-header,*/
-/*.entry-footer,*/
-/*.media-meta .data,*/
-/*.comments-closed,*/
-/*.comment-meta,*/
-/*label,*/
-/*.logged-in-as,*/
-/*.form-allowed-tags,*/
-/*.comment-notes,*/
-/*.comments-nav .page-numbers {*/
-/*color: #b5b5b5;*/
-/*}*/
+.entry-header,
+.entry-footer,
+.media-meta .data,
+.comments-closed,
+.comment-meta,
+label,
+.logged-in-as,
+.form-allowed-tags,
+.comment-notes,
+.comments-nav .page-numbers {
+    color: #b1b1b1;
+}
 
-/* === color #959595 === */
+/* === color #919191 === */
 
-/*blockquote,*/
-/*.gallery-caption {*/
-/*color: #959595;*/
-/*}*/
+blockquote,
+.gallery-caption {
+    color: #919191;
+}
 
-/* === color #858585 === */
+/* === color #717171 === */
 
-/*.wp-caption .wp-caption-text,*/
-/*.page-links,*/
-/*dd,*/
-/*.wp-playlist-item-meta,*/
-/*.wp-playlist-item-length { color: #858585; }*/
+.wp-caption .wp-caption-text,
+.page-links,
+dd,
+.wp-playlist-item-meta,
+.wp-playlist-item-length {
+    color: #717171;
+}
 
-/* === color #757575 === */
+/* === color #717171 === */
 
-/*pre,*/
-/*blockquote cite {*/
-/*color: #757575;*/
-/*}*/
+pre,
+blockquote cite {
+color: #717171;
+}
 
 /* === color #545454 === */
 
